@@ -1,0 +1,77 @@
+/* Design System Variables */
+:root {
+  /* Colors - Darker premium tones */
+  --bg-primary: #f5f1ea;
+  --bg-secondary: #ebe6dc;
+  --bg-accent: #e8e2d5;
+  --bg-dark: #1c1a16;
+  --bg-dark-secondary: #2a2620;
+  
+  --text-primary: #1c1a16;
+  --text-secondary: #4a453e;
+  --text-muted: #6b6358;
+  --text-light: rgba(28, 26, 22, 0.6);
+  --text-on-dark: #f5f1ea;
+  --text-on-dark-muted: rgba(245, 241, 234, 0.7);
+  
+  --accent: #b8956a;
+  --accent-light: #d4c19a;
+  --accent-dark: #9a7d52;
+  
+  --border: #d9d3c6;
+  --border-light: rgba(217, 211, 198, 0.5);
+  --border-dark: rgba(28, 26, 22, 0.1);
+  --border-glass: rgba(245, 241, 234, 0.2);
+  
+  /* Glass effects */
+  --glass-bg: rgba(245, 241, 234, 0.1);
+  --glass-border: rgba(245, 241, 234, 0.2);
+  --glass-blur: blur(12px);
+  
+  /* Typography */
+  --font-primary: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-accent: 'Syne', sans-serif;
+  
+  /* Fluid Typography */
+  --text-xs: clamp(0.7rem, 0.65rem + 0.25vw, 0.75rem);
+  --text-sm: clamp(0.8rem, 0.75rem + 0.25vw, 0.875rem);
+  --text-base: clamp(0.9rem, 0.85rem + 0.25vw, 1rem);
+  --text-lg: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+  --text-xl: clamp(1.125rem, 1.05rem + 0.375vw, 1.25rem);
+  --text-2xl: clamp(1.25rem, 1.15rem + 0.5vw, 1.5rem);
+  --text-3xl: clamp(1.5rem, 1.35rem + 0.75vw, 2rem);
+  --text-4xl: clamp(2rem, 1.75rem + 1.25vw, 2.75rem);
+  --text-5xl: clamp(2.5rem, 2rem + 2.5vw, 4rem);
+  --text-6xl: clamp(3rem, 2.5rem + 2.5vw, 5rem);
+  
+  /* Spacing */
+  --space-xs: clamp(0.5rem, 0.45rem + 0.25vw, 0.625rem);
+  --space-sm: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+  --space-md: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
+  --space-lg: clamp(1.5rem, 1.3rem + 1vw, 2rem);
+  --space-xl: clamp(2rem, 1.7rem + 1.5vw, 3rem);
+  --space-2xl: clamp(3rem, 2.5rem + 2.5vw, 4.5rem);
+  --space-3xl: clamp(4rem, 3rem + 5vw, 7rem);
+  
+  /* Layout */
+  --container-max: 1200px;
+  --container-padding: clamp(1rem, 4vw, 3.75rem);
+  --section-padding: clamp(3rem, 8vw, 7.5rem);
+  
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-base: 0.25s ease;
+  --transition-slow: 0.4s ease;
+  --transition-bounce: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(28, 26, 22, 0.05);
+  --shadow-md: 0 4px 6px rgba(28, 26, 22, 0.07);
+  --shadow-lg: 0 10px 15px rgba(28, 26, 22, 0.1);
+  
+  /* Border radius */
+  --radius-sm: 0.125rem;
+  --radius-md: 0.25rem;
+  --radius-lg: 0.5rem;
+}

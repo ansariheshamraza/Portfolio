@@ -1,4 +1,4 @@
-# Hesham Raza — Portfolio
+# Hesham Raza Portfolio
 
 A clean, modern portfolio showcasing my work as a builder, developer, and founder. Built with vanilla HTML, CSS, and JavaScript.
 
@@ -40,4 +40,4 @@ A clean, modern portfolio showcasing my work as a builder, developer, and founde
 
 ---
 
-Built and designed by Hesham Raza. Mumbai, 2025.
+Built and designed by Hesham Raza. Mumbai, 2026.
